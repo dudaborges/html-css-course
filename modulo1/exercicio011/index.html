@@ -18,5 +18,22 @@
     </picture>
    
 
+    <h1>Reproduzindo áudio</h1>
+    <audio src="midia/Kazoom - Quincas Moreira.mp3" controls></audio>
+    <p>Reproduzindo de outra forma</p>
+
+    <!-- Não bote nada ou "auto" no áudio, pois irá pesar seu site. Já que ele terá que carregar o áudio todo antes de carregar o site -->
+    <!-- Loog para iniciar o áudio novamente quando acabar -->
+    <audio preload="metadata" controls loop> 
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reprozir áudio. <a href="midia/musica.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+        <!-- Caso os outros navegadores não carregem o arquivo "mpeg" -->
+        <!-- Não é recomendado usar o arquivo "wav", pois é muito pesado e pode sobrecarregar seu site -->
+        <!-- Sites lentos diminuem a taxa de retenção dos usuários -->
+    </audio>
+
+    <!-- Não hospede vídeos acima de 1080p -->
 </body>
 </html>
