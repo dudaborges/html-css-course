@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to right, #10454F, #506266);
+}
+
+h1{
+    color: #10454F;
+    text-align: center;
+    text-shadow: 1px 1px 0px #0c333a;
+}
+
+h2{
+    color: #6f8421;
+}
+
+main{
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    /* o primeiro parâmetro é quanto a sombra anda para o lado, o segundo é para baixo, e o terceiro  é o quanto a sombra vai espalhar*/
+    /* para deixar a sombra suave é preciso usar cores monocromáticas. Pega a cor de fundo e muda o tom dela para baixo. */
+    box-shadow: 10px 10px 10px #435256;
+    text-align: justify;
+}
