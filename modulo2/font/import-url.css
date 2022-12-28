@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+/* O import é uma regra, não uma declaração, por isso não fica dentro de um seletor */
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
