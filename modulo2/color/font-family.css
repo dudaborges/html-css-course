@@ -1,0 +1,4 @@
+h1 {
+    /* isso se chama safe font combinations. Um conjunto de fontes seguras, algumas opções caso o dispostivo não tenha alguma fonte */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
