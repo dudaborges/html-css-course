@@ -1,0 +1,8 @@
+/* são variações de pesos da fonte */
+
+h1{
+    font-weight: bold;
+    /* lighter, normal, bold, bolder */
+    /* variações de 100 a 900, geralmente 400 é o normal */
+    /* a maioria das fontes não tem todas as variações númericas de peso*/
+}
