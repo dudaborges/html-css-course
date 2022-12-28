@@ -1,0 +1,24 @@
+h1 {
+
+    /* 
+    Medidas Absolutas:
+    centímetro (cm), 
+    milímetro (mm), 
+    polegada (in), 
+    pixel (pc), 
+    ponto (pt), 
+    pica (pc)
+
+    Medidas Relativas:
+    Relativo a altura do m de uma fonte (em), 
+    Relativo a altura x de uma fonte (ex),  
+    Relativo ao tamanho padrão da fonte raiz, se chama root (rem), 
+    Viewport width, relativo a largura da viewport, viewport é o tamanho de tela (vw), 
+    Viewport height, relativo a altura da viewport (vh),
+    Porcentagem (%)
+    */
+    font-size: 40px;
+
+    /* A recomendação da W3C para a medida de FONTES é utilizar o px e o em. */
+
+}
