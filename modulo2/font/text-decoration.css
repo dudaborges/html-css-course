@@ -1,0 +1,5 @@
+/* decorações de texto, como sublinhado embaixo ou a bolinha na lista. */
+
+h2{
+    text-decoration: underline;
+}
