@@ -1,0 +1,14 @@
+h1{
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-style: italic;
+
+    /* shorthand font
+    condensa todas essas configurações, e ela tem uma ordem: 
+    - font-style, font weight, font-size, font-family
+    */
+
+    font: italic bolder 3rem Georgia, serif;
+}
