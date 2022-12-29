@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+
+h1{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+a{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(9, 9, 192);
+    font-size: 20px;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    font-size: 22px;
+}
