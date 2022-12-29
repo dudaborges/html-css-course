@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: dimgrey;
+}
+
+h1{
+    background-color: white;
+    /* 1 - Esquerda negativo, direita positivo 
+       2 - Pra cima negativo, pra baixo positivo
+       3 - Espalha a sombra
+       4 - Largura da sombra
+    */
+    /* colocar a palavra "inset" antes, cria uma sombra interna */
+    box-shadow: 0px 21px 11px -8px rgba(0, 0, 0, 0.377);
+}
