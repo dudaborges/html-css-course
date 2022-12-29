@@ -1,0 +1,6 @@
+/* para modificar a identação */
+
+p{
+    text-indent: 20px;
+    /* no início do parágrafo, haverá um espaçamento de 20px da borda */
+}
