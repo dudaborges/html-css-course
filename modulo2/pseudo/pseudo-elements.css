@@ -24,3 +24,8 @@ a:hover{
 a:active{
     font-size: 22px;
 }
+
+/* pseudo elementos estiliza um elemento específico. Por ex adiciona um texto "link" dps do conteúdo de todos os "a" */
+a::after{
+    content: ' [Link]';
+}
