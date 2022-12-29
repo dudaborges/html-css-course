@@ -1,0 +1,18 @@
+ /* configuração de estado, ela muda o estado do elemento. */
+
+div{
+    background-color: blue;
+    width: 150px;
+}
+
+ div > p{
+    /* div tem um filho p */
+    display: none;
+ }
+
+ div:hover{
+    background-color: red;
+    /* quando passar o mouse por cima, a div muda de cor. */
+    display: block;
+ }
+ 
