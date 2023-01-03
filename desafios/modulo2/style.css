@@ -33,7 +33,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(var(--cor2), rgba(0, 0, 0, 0.698));
+    background-image: linear-gradient(var(--cor3), var(--cor5));
     box-shadow: 1px 3px 15px 1px rgba(0, 0, 0, 0.673);
     padding-bottom: 10px;
 }
@@ -43,18 +43,30 @@ header > h1{
     text-align: center;
     color: white;
     padding: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.713);
 }
 
 header > p{
     color: white;
     text-align: center;
     padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.713);
 }
 
 nav > a{
     color: white;
+    padding: 10px;
     text-decoration: none;
     margin: 10px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 
 main{
@@ -64,6 +76,7 @@ main{
     min-width: 320px;
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.584);
 }
 
 section{
@@ -88,12 +101,13 @@ span.link{
 .paragraph{
     text-align: justify;
     text-indent: 30px;
+    line-height: 2em;
 }
 
 .subtitle{
     font-family: var(--android-font);
     font-size: 20px;
-    background-color: var(--cor0);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
     color: var(--cor4);
     padding-left: 5px;
     margin-bottom: 7px;
@@ -117,12 +131,12 @@ span.link{
     margin: auto;
 }
 
-section#learn{
+aside#learn{
     border-radius: 10px;
     background-color: var(--cor0);
 }
 
-section#learn > h3{
+aside#learn > h3{
     background-color: var(--cor2);
     color: white;
     border-radius: 10px 10px 0px 0px;
@@ -130,8 +144,15 @@ section#learn > h3{
     margin-bottom: 20px;
 }
 
-ul{
+aside#learn p {
+    padding: 10px;
+}
+
+aside > ul{
     margin-top: 20px;
+    padding-bottom: 10px;
+    list-style-position: inside;
+    columns: 2;
 }
 
 footer{
