@@ -134,6 +134,7 @@ span.link{
 aside#learn{
     border-radius: 10px;
     background-color: var(--cor0);
+    padding: 10px;
 }
 
 aside#learn > h3{
@@ -141,16 +142,11 @@ aside#learn > h3{
     color: white;
     border-radius: 10px 10px 0px 0px;
     padding: 10px;
-    margin-bottom: 20px;
-}
-
-aside#learn p {
-    padding: 10px;
+    margin: -10px -10px 10px -10px;    
 }
 
 aside > ul{
     margin-top: 20px;
-    padding-bottom: 10px;
     list-style-position: inside;
     columns: 2;
 }
