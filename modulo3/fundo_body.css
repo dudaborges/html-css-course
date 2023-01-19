@@ -5,6 +5,8 @@ body{
     /* o padrão é o tamanho da imagem ser automática (auto) */
     /* repeat-x repete só no eixo x */
     /* repeat-y repete só no eixo y */
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-position: bottom;
+    /* pode ser usado duas posições */
+    background-position: center left;
 }
