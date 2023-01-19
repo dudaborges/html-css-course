@@ -1,0 +1,10 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    /* o padrão é o tamanho da imagem ser automática (auto) */
+    /* repeat-x repete só no eixo x */
+    /* repeat-y repete só no eixo y */
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
