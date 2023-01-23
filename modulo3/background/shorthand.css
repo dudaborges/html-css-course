@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('img/wallpaper001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* background shorthand: 
+        color > image > position > repeat > [size] > attachmente
+        tem navegadores que funcionam o shortgand com o size e outros que não, então é melhor não utilizar o size.
+    */
+
+    background: black url('img/wallpaper001.jpg') center center no-repeat cover fixed;
+}
