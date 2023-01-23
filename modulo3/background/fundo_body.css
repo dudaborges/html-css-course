@@ -1,6 +1,9 @@
 body{
+    /* essa solução de colocar 100% width/100vh height e 100% size é péssima, pois distorce a imagem. a solução está no arquivo background size. */
     width: 100%;
     height: 100vh;
+    /* é necessário colocar uma cor no fundo mesmo quando há background image, pois a imagem pode demorar para carregar */
+    background-color: cadetblue;
     background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
     /* o padrão é o tamanho da imagem ser automática (auto) */
     /* repeat-x repete só no eixo x */
@@ -9,4 +12,5 @@ body{
     background-position: bottom;
     /* pode ser usado duas posições */
     background-position: center left;
+    background-size: 100% 100%
 }

@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('img/wallpaper001.jpg');
+    background-repeat: no-repeat;
+    /* exibe toda a imagem independente do tamanho da tela, sem cortes */
+    background-size: contain;
+    /* cobre toda a tela com a imagem, com cortes.*/
+    background-size: cover;
+    /* auto, o navegador exibe a imagem do tamanho original dela */
+    background-size: auto;
+    
+}
