@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('img/wallpaper001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* a imagem fica fixada no fundo de todo o site */
+    background-attachment: fixed;
+}
